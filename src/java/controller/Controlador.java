@@ -1,8 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * @author Maruan
  */
+
 package controller;
 
 import java.io.IOException;
@@ -124,7 +123,7 @@ public class Controlador extends HttpServlet {
                     String id2=request.getParameter("id");
                     dao.delete(id2);
                     request.getRequestDispatcher("Controlador?accion=Listar").forward(request, response);
-                 
+                    break;
                 
                 case "Cambiar incidencia":
                     
