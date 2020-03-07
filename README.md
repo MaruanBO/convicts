@@ -1,4 +1,4 @@
-# Rutas de acceso al modelo-vista-controlador
-+ src\java para los controlador, modelo
+# Rutas de acceso al MVC y DAO
++ src\java para los controlador, modelo, DAO
 + web para las vistas
 
